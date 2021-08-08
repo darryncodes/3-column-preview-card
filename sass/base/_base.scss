@@ -1,0 +1,48 @@
+//COLORS
+
+$orange: hsl(31, 77%, 52%);
+$cyan: hsl(184, 100%, 22%);
+$dark-cyan: hsl(179, 100%, 13%);
+
+//FONT
+
+$white: hsla(0, 0%, 100%, 0.75);
+
+//BACKGROUND, HEADINGS, BUTTONS
+
+$grey: hsl(0, 0%, 95%);
+
+//RESPONSIVE BREAKPOINTS
+
+$bp-desktop: 90em; //1440px
+$bp-tablet: 56.25em; //900px
+$bp-mobile: 40.625em; //650px
+
+//RESETS & RESPONSIVE FONT SIZES
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+
+    @media only screen and (max-width: $bp-tablet) {
+        font-size: 56.25%;
+    }
+
+    @media only screen and (max-width: $bp-mobile) {
+        font-size: 50%;
+    }
+}
+
+body {
+    background-color: $grey;
+    font-family: "Big Shoulders Display", cursive;
+    font-family: "Lexend Deca", sans-serif;
+}
