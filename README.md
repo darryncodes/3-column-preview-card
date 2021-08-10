@@ -48,7 +48,7 @@ Users should be able to:
 
 -   Continued practice with use of inline SVGs
 -   I challenged myself to estimate how long the build would take and tried my best to stick to it
--   I also have put a lot of emphasis on design thinking, not rushing into a solution, planning it out, staying calmn and not loosing my head when things do not seem to work
+-   I also have put a lot of emphasis on design thinking, not rushing into a solution, planning it out, staying calm and not loosing my head when things do not seem to work
 
 ### Continued development
 
