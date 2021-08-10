@@ -1,0 +1,94 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+
+    @media only screen and (max-width: $bp-mobile) {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5rem;
+    }
+}
+
+.card {
+    max-width: 30rem;
+    padding: 4rem;
+
+    display: grid;
+    grid-template-rows: 7vh repeat(3, min-content);
+    grid-row-gap: 2rem;
+
+    &--sedans {
+        background-color: $orange;
+
+        border-top-left-radius: $radius;
+        border-bottom-left-radius: $radius;
+
+        @media only screen and (max-width: $bp-mobile) {
+            border-top-right-radius: $radius;
+            border-bottom-left-radius: 0;
+        }
+    }
+    &--suvs {
+        background-color: $cyan;
+    }
+    &--luxury {
+        background-color: $dark-cyan;
+
+        border-top-right-radius: $radius;
+        border-bottom-right-radius: $radius;
+
+        @media only screen and (max-width: $bp-mobile) {
+            border-top-right-radius: 0;
+            border-bottom-left-radius: $radius;
+        }
+    }
+
+    &__icon {
+        width: 8rem;
+        height: 5rem;
+    }
+
+    &__btn {
+        justify-self: start;
+        margin-top: 5rem;
+
+        border: none;
+        border: 2px solid $grey;
+        border-radius: 30px;
+        background-color: $grey;
+        padding: 1.5rem 3.25rem;
+        cursor: pointer;
+        transition: all 0.3s;
+
+        &:hover {
+            background-color: transparent;
+        }
+
+        &--sedan {
+            color: $orange;
+
+            &:hover {
+                color: $grey;
+            }
+        }
+        &--suvs {
+            color: $cyan;
+
+            &:hover {
+                color: $grey;
+            }
+        }
+        &--luxury {
+            color: $dark-cyan;
+
+            &:hover {
+                color: $grey;
+            }
+        }
+
+        @media only screen and (max-width: $bp-mobile) {
+            margin-top: 3rem;
+        }
+    }
+}
