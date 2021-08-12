@@ -58,4 +58,4 @@ Users should be able to:
 ## Author
 
 -   Work in progress portfolio site - [@darryncodes](https://www.darryncodes.co.uk/)
--   Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/darryncodes)
+-   Frontend Mentor - [@darryncodes](https://www.frontendmentor.io/profile/darryncodes)
