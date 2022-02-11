@@ -32,7 +32,6 @@ Users should be able to:
 
 -   [GitHub repo](https://github.com/darryncodes/3-column-preview-card)
 -   [Solution URL](https://darryncodes.github.io/3-column-preview-card/)
--   [Live Site URL](https://www.darryncodes.co.uk/pages/3-column-preview-card.html)
 
 ## My process
 
